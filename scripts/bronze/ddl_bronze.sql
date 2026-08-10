@@ -58,8 +58,8 @@ CREATE TABLE bronze.crm_prd_info
 (
     prd_id          INT,
     prd_key         NVARCHAR(50),
-    prd_nm          NVARCHAR(100),
-    prd_cost        DECIMAL(10,2),
+    prd_nm          NVARCHAR(50),
+    prd_cost        INT,
     prd_line        NVARCHAR(10),
     prd_start_dt    DATETIME,
     prd_end_dt      DATETIME
@@ -137,4 +137,7 @@ CREATE TABLE bronze.erp_px_cat_g1v2 (
     subcat       NVARCHAR(50),
     maintenance  NVARCHAR(50)
 );
-GO                                                                                                
+GO     
+
+
+

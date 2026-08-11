@@ -185,7 +185,7 @@ PRINT '------------------------------------------------';
 			CASE
 				WHEN bdate > GETDATE() THEN NULL
 				ELSE bdate
-			END AS bdate, -- Set future birthdates to NULL
+			END AS bdate,
 			CASE
 				WHEN UPPER(TRIM(gen)) IN ('F', 'FEMALE') THEN 'Female'
 				WHEN UPPER(TRIM(gen)) IN ('M', 'MALE') THEN 'Male'

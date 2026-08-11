@@ -17,6 +17,11 @@ Script Purpose:
         - Reports load duration and handles loading errors.
 
     The procedure does not accept any parameters or return any values.
+
+
+Usage:
+
+	ExEC silver.load_silver;
 ================================================================================
 */
 CREATE OR ALTER PROCEDURE silver.load_silver AS
@@ -256,3 +261,12 @@ PRINT '------------------------------------------------';
 		PRINT '=========================================='
 	END CATCH
 END
+
+
+
+
+
+ExEC silver.load_silver;
+
+
+

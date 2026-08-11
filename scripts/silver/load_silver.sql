@@ -1,5 +1,24 @@
- 
+/*
+================================================================================
+-- Stored Procedure: Load Silver Layer
+================================================================================
+Script Purpose:
+    Loads transformed and standardized data from the Bronze Layer into the
+    Silver Layer.
 
+    The procedure:
+        - Truncates existing Silver tables.
+        - Cleans and standardizes source data.
+        - Removes duplicate customer records.
+        - Handles NULL and invalid values.
+        - Converts and validates date fields.
+        - Standardizes categorical values.
+        - Integrates and prepares CRM and ERP data for the Gold Layer.
+        - Reports load duration and handles loading errors.
+
+    The procedure does not accept any parameters or return any values.
+================================================================================
+*/
 CREATE OR ALTER PROCEDURE silver.load_silver AS
 BEGIN
     DECLARE @start_time DATETIME, @end_time DATETIME, @batch_start_time DATETIME, @batch_end_time DATETIME; 

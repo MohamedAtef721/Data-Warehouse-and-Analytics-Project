@@ -127,25 +127,25 @@ scripts/gold/dq_gold.sql
 ```
 data-warehouse-project/
 │
-├── datasets/                                         # Raw datasets used for the project (ERP and CRM data)
+├── datasets/                                        # Raw datasets used for the project (ERP and CRM data)
 │
-├── docs/                                             # Project documentation and architecture details
-│   ├── Data Architecture.png                         # High-level Data Warehouse architecture           
-│   ├── Data Flow.png                                 # Data flow across warehouse layers
-│   ├── Data Model.png                                # Gold-layer Star Schema
-│   ├── Data_catalog.md                               # Tables and column descriptions
-│   ├── Project_Architecture_Diagrams.excalidraw      # Editable architecture diagrams 
+├── docs/                                            # Project documentation and architecture details
+│   ├── Data Architecture.png                        # High-level Data Warehouse architecture           
+│   ├── Data Flow.png                                # Data flow across warehouse layers
+│   ├── Data Model.png                               # Gold-layer Star Schema
+│   ├── Data_catalog.md                              # Tables and column descriptions
+│   ├── Project_Architecture_Diagrams.excalidraw     # Editable architecture diagrams 
 │
-├── scripts/                                          # SQL scripts for ETL and transformations
-│   ├── bronze/                                       # Raw data loading scripts
-│   ├── silver/                                       # Data cleaning and transformation scripts
-│   ├── gold/                                         # Business-ready analytical views
-│   ├──init_database.sql                              # Creates the Data Warehouse database and schemas  
+├── scripts/                                         # SQL scripts for ETL and transformations
+│   ├── bronze/                                      # Raw data loading scripts
+│   ├── silver/                                      # Data cleaning and transformation scripts
+│   ├── gold/                                        # Business-ready analytical views
+│   ├──init_database.sql                             # Creates the Data Warehouse database and schemas  
 │
 │
-├── test/                                             # Data quality and validation scripts
+├── test/                                            # Data quality and validation scripts
 │
-└── README.md                                         # Project overview and documentation
+└── README.md                                        # Project overview and documentation
 ```
 ---
 ## ☕ Let's Connect

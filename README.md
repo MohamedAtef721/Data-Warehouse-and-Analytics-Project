@@ -64,6 +64,7 @@ Run:
 
 ```text
 scripts/init_database.sql
+```
 
 ### 2. Create Bronze Tables
 

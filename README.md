@@ -12,7 +12,7 @@ The data architecture follows the Medallion Architecture pattern, consisting of 
 | --- | --- | --- |
 | **Bronze** | Raw Data | CSV ingestion from CRM and ERP source systems, stored with minimal transformation |
 | **Silver** | Cleansed & Standardized Data | Data cleansing, validation, standardization, normalization, and source integration |
-| **Gold** | Business-Ready Data | Star Schema / Sales Data Mart designed for BI reporting and analytical queries |
+| **Gold**   | Business-Ready Data | Star Schema / Sales Data Mart designed for BI reporting and analytical queries |
 
 **Overall Flow:**
 
@@ -60,7 +60,10 @@ This project involves:
 
 ### 1. Create Database & Schemas
 
-Create the Data Warehouse database and the required Bronze, Silver, and Gold schemas.
+Run:
+
+```text
+scripts/init_database.sql
 
 ### 2. Create Bronze Tables
 
@@ -150,4 +153,3 @@ Let's stay in touch! Feel free to connect with me on the following platforms:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamed-atef22/)
 ---
-

@@ -7,6 +7,7 @@ A comprehensive end-to-end **Data Warehouse and Analytics solution** built with 
 ## 🏗️ Architecture Overview
 
 The data architecture follows the Medallion Architecture pattern, consisting of Bronze, Silver, and Gold layers:
+
 ![Data Architecture](docs/Data%20Architecture.png)
 | Layer | Purpose | Characteristics |
 | --- | --- | --- |

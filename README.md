@@ -1,7 +1,6 @@
 # Data Warehouse and Analytics Project
 
 A comprehensive end-to-end **Data Warehouse and Analytics solution** built with SQL Server, demonstrating modern data engineering and business intelligence practices using the **Medallion Architecture** pattern. The project covers the complete data pipeline from raw CRM and ERP CSV files through data cleansing, transformation, dimensional modeling, and business-ready analytics.
-
 ---
 
 ## 🏗️ Architecture Overview
